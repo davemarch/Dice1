@@ -4,7 +4,7 @@ const input = document.getElementById('input');
 const hideDice = document.getElementById('diceimg');
 const scoredisplay = document.getElementById('scoredisplay');
 
-diceimg.style.display = "none";
+diceimg.style.visibility = "hidden";
 
 currentDice.addEventListener('click', () => {
  getDiceRoll();
@@ -12,7 +12,7 @@ currentDice.addEventListener('click', () => {
 
 const getDiceRoll = () => {
   let randomNumber = (Math.floor(Math.random() * 6)+ 1);
-  diceimg.style.display = "show";
+  diceimg.style.visibility = "visible";
   scoredisplay.innerHTML=randomNumber;
   document.getElementById('diceimg').src=`img/dice${randomNumber}.png`;
 }
