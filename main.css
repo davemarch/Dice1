@@ -8,4 +8,18 @@ div {
 
   body {
       background-image: linear-gradient(to right, yellow, red);
+      font-family: open sans;
+  }
+
+  button {
+      font-size: 50px;
+      font-family: monospace;
+      border-radius: 12px;
+      background-image: linear-gradient(to left, yellow, red);
+  }
+  
+  img {
+      border-radius: 15px;
+      border-style: solid;
+
   }

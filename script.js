@@ -44,9 +44,6 @@ newGameButton.addEventListener('click', () => {
   currentDice.style.visibility = "visible";
   scoredisplay.textContent = "";
   diceimg.style.visibility = "hidden";
-
-
-
  }
  )
 
@@ -67,20 +64,3 @@ newGameButton.style.visibility = "visible";
 currentDice.style.visibility = "hidden";
 resetGame();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
